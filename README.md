@@ -1,6 +1,16 @@
 pyspeedtest
 ==========
-Python script to test network bandwidth using Speedtest.net servers
+Oringally was just a python script to test network bandwidth using
+Speedtest.net servers. Now it does that but also logs to Splunk Storm as well
+as to stdout with increased information.
+
+http://www.splunkstorm.com
+
+In most cases, this should be run without parameters in order to do a full test
+of ping, download speed, and upload speed. Speeds are returned in bps, while
+ping is obviously returned in seconds.
+
+If for some reason you need usage for debugging:
 
 Usage
 -----
